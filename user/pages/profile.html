@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeBuddy - My Profile</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="../styles/profile.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="../index.html" class="logo">
+          <i class="fa-solid fa-house"></i> HomeBuddy
+        </a>
+        <div class="nav-links">
+          <a href="../index.html">Dashboard</a>
+          <a href="../pages/services.html">Services</a>
+          <a href="../pages/my-bookings.html">My Bookings</a>
+          <a href="../pages/profile.html" class="active">Profile</a>
+          <a href="../pages/login.html" class="btn-logout">Logout</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="profile-container">
+      <section class="profile-card">
+        <div class="profile-header">
+          <div class="profile-avatar">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div>
+            <h1>User</h1>
+            <p>User Account</p>
+          </div>
+        </div>
+
+        <form class="profile-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" value="Mohammed" />
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" value="Ibrahim" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" value="Ibrahim@example.com" />
+          </div>
+
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" value="+91 9080109060" />
+          </div>
+
+          <div class="form-group">
+            <label>Address</label>
+            <textarea rows="3">
+Global Infocity, perungudi, chennai, 600023</textarea
+            >
+          </div>
+
+          <div class="form-actions">
+            <button type="button" class="btn-secondary">Cancel</button>
+            <button type="submit" class="btn-primary">Save Changes</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 HomeBuddy. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
